@@ -1,7 +1,7 @@
 import { get, writable, Writable } from 'svelte/store'
 import { _b, assign } from '@ctx-core/object'
 export interface Writable__table__debounce extends Writable<any> {
-	debounce:(opts:{ key:string, no:()=>any, yes:()=>any })=>any
+	debounce:(opts:{ key:string, no:()=>any, yes:()=>any })=>Promise<any>
 }
 export const b__table__debounce = _b<Writable__table__debounce>('__table__debounce', ()=>{
 	const __table__debounce = writable({})
