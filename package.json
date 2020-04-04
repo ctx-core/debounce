@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/debounce",
-	"version": "5.2.19",
+	"version": "5.2.20",
 	"description": "ctx-core debounce",
 	"main": "lib.js",
 	"module": "lib.js",
