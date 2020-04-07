@@ -30,8 +30,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/logger": "^3.1.14",
-		"@ctx-core/object": "^8.0.5",
-		"@ctx-core/store": "^13.1.18"
+		"@ctx-core/object": "^8.0.6",
+		"@ctx-core/store": "^13.1.19"
 	},
 	"devDependencies": {
 		"typescript": "^3.8.3"
