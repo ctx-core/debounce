@@ -22,5 +22,3 @@ export const b__table__debounce = _b<Writable__table__debounce>('__table__deboun
 		}
 	}
 })
-export const __table__debounce = b__table__debounce()
-export const { debounce } = __table__debounce
