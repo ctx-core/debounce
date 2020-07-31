@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/debounce",
-	"version": "5.2.63",
+	"version": "5.2.64",
 	"description": "ctx-core debounce",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -30,8 +30,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/logger": "^3.1.21",
-		"@ctx-core/object": "^9.0.0",
-		"@ctx-core/store": "^16.0.2"
+		"@ctx-core/object": "^9.0.1",
+		"@ctx-core/store": "^16.0.3"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.7"
