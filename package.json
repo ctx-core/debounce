@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/debounce",
-	"version": "5.2.89",
+	"version": "5.2.90",
 	"description": "ctx-core debounce",
 	"main": "./index.js",
 	"module": "./index.js",
