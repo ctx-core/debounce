@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/debounce",
-  "version": "5.2.91",
+  "version": "5.2.92",
   "description": "ctx-core debounce",
   "keywords": [
     "ctx-core",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "tsc -b",
+    "compile": "./node_modules/.bin/tsc -b",
     "exec": "$@",
     "prepublishOnly": "npm run compile"
   },
