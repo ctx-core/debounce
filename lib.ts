@@ -1,6 +1,6 @@
 import { assign, clone } from '@ctx-core/object'
-export async function debounce(ctx, ...a1__opt) {
-	const opts = clone(...a1__opt)
+export async function debounce(ctx, ...opt_a1: debounce_opt_type[]) {
+	const opts = clone(...opt_a1)
 	const { key, no, yes } = opts
 	ensure__table__debounce(ctx)
 	const { table__debounce } = ctx
@@ -32,4 +32,9 @@ function _finish__debounce(ctx, key) {
 	return () => {
 		ctx.table__debounce[key] = null
 	}
+}
+export type debounce_opt_type = {
+	key: string
+	yes(): Promise<void>
+	no(): Promise<void>
 }

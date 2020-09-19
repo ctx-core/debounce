@@ -1,24 +1,35 @@
-import { get, writable, Writable } from 'svelte/store'
+import { get, writable, Writable } from '@ctx-core/store'
 import { _b, assign } from '@ctx-core/object'
-export interface Writable__table__debounce extends Writable<any> {
-	debounce:(opts:{ key:string, no:()=>any, yes:()=>any })=>Promise<any>
+import type { maybe_null } from '@ctx-core/function'
+export function b__table__debounce<I>(ctx?) {
+	return _b<type__table__debounce<I>>('__table__debounce', ()=>{
+		const __table__debounce = writable({}) as type__table__debounce<I>
+		return assign(__table__debounce, {
+			debounce,
+		})
+		async function debounce(opts) {
+			const { key, no, yes } = opts
+			const table__debounce = get<$type__table__debounce>(__table__debounce)
+			if (table__debounce[key]) {
+				return await no()
+			}
+			try {
+				table__debounce[key] = (()=>{ table__debounce[key] = null })
+				return await yes()
+			} finally {
+				if (table__debounce[key]) {
+					(table__debounce[key] as debounce_fn_type)()
+				}
+			}
+		}
+	})(ctx)
 }
-export const b__table__debounce = _b<Writable__table__debounce>('__table__debounce', ()=>{
-	const __table__debounce = writable({})
-	return assign(__table__debounce, {
-		debounce,
-	})
-	async function debounce(opts) {
-		const { key, no, yes } = opts
-		const table__debounce = get(__table__debounce)
-		if (table__debounce[key]) {
-			return await no()
-		}
-		try {
-			table__debounce[key] = ()=>table__debounce[key] = null
-			return await yes()
-		} finally {
-			table__debounce[key]()
-		}
-	}
-})
+export type $type__table__debounce = Record<string, maybe_null<debounce_fn_type>>
+export interface type__table__debounce<I> extends Writable<$type__table__debounce> {
+	debounce:(
+		opts:{ key:string, no:debounce_no_type<I>, yes:debounce_yes_type<I> }
+	)=>Promise<I>
+}
+export type debounce_fn_type = () => void
+export type debounce_no_type<I> = ()=>Promise<I>
+export type debounce_yes_type<I> = ()=>Promise<I>

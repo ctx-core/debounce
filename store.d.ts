@@ -1,9 +1,14 @@
-import { Writable } from 'svelte/store';
-export interface Writable__table__debounce extends Writable<any> {
+import { Writable } from '@ctx-core/store';
+import type { maybe_null } from '@ctx-core/function';
+export declare function b__table__debounce<I>(ctx?: any): type__table__debounce<I>;
+export declare type $type__table__debounce = Record<string, maybe_null<debounce_fn_type>>;
+export interface type__table__debounce<I> extends Writable<$type__table__debounce> {
     debounce: (opts: {
         key: string;
-        no: () => any;
-        yes: () => any;
-    }) => Promise<any>;
+        no: debounce_no_type<I>;
+        yes: debounce_yes_type<I>;
+    }) => Promise<I>;
 }
-export declare const b__table__debounce: (ctx?: any, opts?: any) => Writable__table__debounce;
+export declare type debounce_fn_type = () => void;
+export declare type debounce_no_type<I> = () => Promise<I>;
+export declare type debounce_yes_type<I> = () => Promise<I>;
