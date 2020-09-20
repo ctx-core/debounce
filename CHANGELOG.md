@@ -1,5 +1,14 @@
 # @ctx-core/debounce
 
+## 6.0.2
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.1
+  - @ctx-core/store@17.0.2
+
 ## 6.0.1
 
 ### Patch Changes
