@@ -1,40 +1,40 @@
 {
-  "name": "@ctx-core/debounce",
-  "version": "6.0.4",
-  "description": "ctx-core debounce",
-  "keywords": [
-    "ctx-core",
-    "debounce"
-  ],
-  "homepage": "https://github.com/ctx-core/debounce#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/debounce/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/debounce/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "dependencies": {
-    "@ctx-core/function": "workspace:^16.0.0",
-    "@ctx-core/object": "workspace:^12.0.2",
-    "@ctx-core/store": "workspace:^17.0.4"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@ctx-core/debounce",
+	"version": "6.0.4",
+	"description": "ctx-core debounce",
+	"keywords": [
+		"ctx-core",
+		"debounce"
+	],
+	"homepage": "https://github.com/ctx-core/debounce#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/debounce/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/debounce/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/function": "workspace:^16.0.0",
+		"@ctx-core/object": "workspace:^12.0.2",
+		"@ctx-core/store": "workspace:^17.0.4"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
