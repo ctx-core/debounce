@@ -1,5 +1,16 @@
 # @ctx-core/debounce
 
+## 6.0.5
+
+### Patch Changes
+
+- stricter type checking of generics
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.1.0
+  - @ctx-core/object@12.0.3
+  - @ctx-core/store@17.0.5
+
 ## 6.0.4
 
 ### Patch Changes

@@ -1,7 +1,7 @@
 import { get, writable, Writable } from '@ctx-core/store'
 import { _b, assign } from '@ctx-core/object'
 import type { maybe_null } from '@ctx-core/function'
-export function b__table__debounce<I>(ctx?) {
+export function b__table__debounce<I extends unknown>(ctx?) {
 	return _b<type__table__debounce<I>>('__table__debounce', ()=>{
 		const __table__debounce = writable({}) as type__table__debounce<I>
 		return assign(__table__debounce, {
