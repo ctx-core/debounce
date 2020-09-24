@@ -1,5 +1,15 @@
 # @ctx-core/debounce
 
+## 6.0.24
+
+### Patch Changes
+
+- default generic types
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.1.1
+  - @ctx-core/object@12.0.8
+  - @ctx-core/store@18.1.3
+
 ## 6.0.23
 
 ### Patch Changes
