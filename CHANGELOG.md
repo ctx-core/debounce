@@ -1,5 +1,12 @@
 # @ctx-core/debounce
 
+## 6.0.36
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/store@20.0.1
+
 ## 6.0.35
 
 ### Patch Changes
