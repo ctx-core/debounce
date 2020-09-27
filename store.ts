@@ -9,7 +9,7 @@ export function table_b__debounce<I extends unknown = unknown>(ctx?) {
 		})
 		async function debounce(opts) {
 			const { key, no, yes } = opts
-			const table__debounce = get<$type__table__debounce>(__table__debounce)
+			const table__debounce = get(__table__debounce) as $type__table__debounce
 			if (table__debounce[key]) {
 				return await no()
 			}
