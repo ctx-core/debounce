@@ -33,8 +33,8 @@ function _finish__debounce(ctx, key) {
 		ctx.table__debounce[key] = null
 	}
 }
-export type debounce_opt_type = {
-	key: string
-	yes(): Promise<void>
-	no(): Promise<void>
+export interface debounce_opt_type {
+	key:string
+	yes():Promise<void>
+	no():Promise<void>
 }
