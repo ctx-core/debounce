@@ -1,5 +1,17 @@
 # @ctx-core/debounce
 
+## 6.1.0
+
+### Minor Changes
+
+- interface instead of type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@13.1.0
+  - @ctx-core/store@23.1.0
+
 ## 6.0.58
 
 ### Patch Changes
