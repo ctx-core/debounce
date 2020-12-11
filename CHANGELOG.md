@@ -1,5 +1,15 @@
 # @ctx-core/debounce
 
+## 6.1.6
+
+### Patch Changes
+
+- typescript: ^4.1.2 -> ^4.1.3
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.1.4
+  - @ctx-core/object@15.0.2
+  - @ctx-core/store@23.1.6
+
 ## 6.1.5
 
 ### Patch Changes
