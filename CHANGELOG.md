@@ -1,5 +1,11 @@
 # @ctx-core/debounce
 
+## 7.0.0
+
+### Major Changes
+
+- \_finish**debounce->\_debounce_finish,finish**debounce->debounce_finish,table_b\_\_debounce->debounce_table_b,
+
 ## 6.1.7
 
 ### Patch Changes

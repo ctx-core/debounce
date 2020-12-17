@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/debounce",
-	"version": "6.1.7",
+	"version": "7.0.0",
 	"description": "ctx-core debounce",
 	"keywords": [
 		"ctx-core",
