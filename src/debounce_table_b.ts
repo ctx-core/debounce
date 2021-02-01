@@ -9,17 +9,16 @@ export function debounce_table_b<I extends unknown = unknown>(ctx?) {
 		}) as debounce_table_type<I>
 		async function debounce(opts) {
 			const { key, no, yes } = opts
-			// @ts-ignore
-			const debounce_table = get(debounce_table) as $debounce_table_type
-			if (debounce_table[key]) {
+			const $debounce_table = get(debounce_table) as $debounce_table_type
+			if ($debounce_table[key]) {
 				return await no()
 			}
 			try {
-				debounce_table[key] = (()=>{ debounce_table[key] = null })
+				$debounce_table[key] = (()=>{ $debounce_table[key] = null })
 				return await yes()
 			} finally {
-				if (debounce_table[key]) {
-					(debounce_table[key] as debounce_fn_type)()
+				if ($debounce_table[key]) {
+					($debounce_table[key] as debounce_fn_type)()
 				}
 			}
 		}
