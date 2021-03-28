@@ -1,5 +1,15 @@
 # @ctx-core/debounce
 
+## 8.0.34
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.4.2
+  - @ctx-core/object@17.4.1
+  - @ctx-core/store@24.1.14
+
 ## 8.0.33
 
 ### Patch Changes
