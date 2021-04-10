@@ -28,7 +28,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/function": "workspace:^17.4.5",
-		"@ctx-core/object": "workspace:^17.5.2",
+		"@ctx-core/object": "workspace:^17.5.3",
 		"@ctx-core/store": "workspace:^24.1.18"
 	},
 	"devDependencies": {
