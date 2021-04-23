@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 8.0.46
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/store@24.2.3
+
 ## 8.0.45
 
 ### Patch Changes
