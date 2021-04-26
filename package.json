@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/debounce",
-	"version": "8.0.55",
+	"version": "8.0.56",
 	"description": "ctx-core debounce",
 	"keywords": [
 		"ctx-core",
@@ -28,8 +28,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/function": "workspace:^17.4.7",
-		"@ctx-core/object": "workspace:^17.5.10",
-		"@ctx-core/store": "workspace:^24.5.3"
+		"@ctx-core/object": "workspace:^17.5.11",
+		"@ctx-core/store": "workspace:^24.5.4"
 	},
 	"devDependencies": {
 		"typescript": "^4.2.4"
