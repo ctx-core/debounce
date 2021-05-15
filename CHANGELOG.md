@@ -1,5 +1,20 @@
 # @ctx-core/debounce
 
+## 9.0.0
+
+### Major Changes
+
+- alias for @ctx-core/function debounce
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.9.0
+
 ## 8.0.82
 
 ### Patch Changes
