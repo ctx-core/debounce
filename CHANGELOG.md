@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 9.0.2
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.9.2
+
 ## 9.0.1
 
 ### Patch Changes
