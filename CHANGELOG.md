@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 9.0.1
+
+### Patch Changes
+
+- fix: target: 2018: nodejs compatability
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.9.1
+
 ## 9.0.0
 
 ### Major Changes
