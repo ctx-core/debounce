@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 9.1.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.10.1
+
 ## 9.1.0
 
 ### Minor Changes
