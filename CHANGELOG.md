@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 9.0.3
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.9.3
+
 ## 9.0.2
 
 ### Patch Changes
