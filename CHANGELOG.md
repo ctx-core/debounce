@@ -1,5 +1,16 @@
 # @ctx-core/debounce
 
+## 9.1.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.10.0
+
 ## 9.0.3
 
 ### Patch Changes
