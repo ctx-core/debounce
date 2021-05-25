@@ -1,5 +1,16 @@
 # @ctx-core/debounce
 
+## 9.2.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.11.0
+
 ## 9.1.1
 
 ### Patch Changes
