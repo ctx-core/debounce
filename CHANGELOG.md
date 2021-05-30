@@ -1,5 +1,18 @@
 # @ctx-core/debounce
 
+## 10.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/function@18.0.0
+
 ## 9.2.1
 
 ### Patch Changes
@@ -993,7 +1006,7 @@
 
 ### Major Changes
 
-- \_finish**debounce->\_debounce_finish,finish**debounce->debounce_finish,table_b\_\_debounce->debounce_table_b,
+- \_finish**debounce->\_debounce_finish,finish**debounce->debounce_finish,table\$\_b\_\_debounce->debounce_table_b,
 
 ## 6.1.7
 
