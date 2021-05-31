@@ -1,5 +1,11 @@
 # @ctx-core/debounce
 
+## 10.0.2
+
+### Patch Changes
+
+- _b->be_
+
 ## 10.0.1
 
 ### Patch Changes
@@ -1012,7 +1018,7 @@
 
 ### Major Changes
 
-- \_finish**debounce->\_debounce_finish,finish**debounce->debounce_finish,table\$\_b\_\_debounce->debounce_table_b,
+- \_finish**debounce->\_debounce_finish,finish**debounce->debounce*finish,table\$\be*\_\_debounce->debounce_table_b,
 
 ## 6.1.7
 
