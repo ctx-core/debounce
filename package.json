@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/debounce",
-	"version": "10.0.4",
+	"version": "10.0.5",
 	"description": "ctx-core debounce",
 	"keywords": [
 		"ctx-core",
@@ -21,13 +21,13 @@
 	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
+		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/function": "workspace:^18.1.1"
+		"@ctx-core/function": "workspace:^18.1.2"
 	},
 	"devDependencies": {
 		"typescript": "^4.3.2"
