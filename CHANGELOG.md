@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 10.0.6
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/function@18.1.3
+
 ## 10.0.5
 
 ### Patch Changes
