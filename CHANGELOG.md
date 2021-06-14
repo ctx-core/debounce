@@ -1,5 +1,16 @@
 # @ctx-core/debounce
 
+## 11.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@19.0.0
+
 ## 10.0.6
 
 ### Patch Changes
