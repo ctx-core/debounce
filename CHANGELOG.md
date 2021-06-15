@@ -1,5 +1,11 @@
 # @ctx-core/debounce
 
+## 11.0.1
+
+### Patch Changes
+
+- update dependencies
+
 ## 11.0.0
 
 ### Major Changes
