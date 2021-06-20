@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 11.0.5
+
+### Patch Changes
+
+- npm run prepare instead of npm run prepublishOnly
+- Updated dependencies [undefined]
+  - @ctx-core/function@19.1.4
+
 ## 11.0.4
 
 ### Patch Changes
