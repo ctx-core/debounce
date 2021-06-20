@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 11.0.4
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/function@19.1.3
+
 ## 11.0.3
 
 ### Patch Changes
