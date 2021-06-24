@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 11.0.9
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/function@19.1.8
+
 ## 11.0.8
 
 ### Patch Changes
