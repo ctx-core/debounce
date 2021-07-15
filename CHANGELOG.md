@@ -1,5 +1,16 @@
 # @ctx-core/debounce
 
+## 12.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@20.0.0
+
 ## 11.0.15
 
 ### Patch Changes
