@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.0.7
+
+### Patch Changes
+
+- fix: index.cjs: module.exports = require('./index.js')
+- Updated dependencies [undefined]
+  - @ctx-core/function@20.0.6
+
 ## 12.0.6
 
 ### Patch Changes
