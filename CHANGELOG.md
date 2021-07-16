@@ -1,5 +1,21 @@
 # @ctx-core/debounce
 
+## 12.0.11
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/function@20.0.10
+
+## 12.0.10
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/function@20.0.9
+
 ## 12.0.9
 
 ### Patch Changes
