@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.0.22
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- Updated dependencies [undefined]
+  - @ctx-core/function@20.2.2
+
 ## 12.0.21
 
 ### Patch Changes
