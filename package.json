@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/debounce",
-	"version": "12.0.25",
+	"version": "12.0.27",
 	"description": "ctx-core debounce",
 	"keywords": [
 		"ctx-core",
@@ -35,12 +35,12 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/function": "workspace:^20.2.5"
+		"@ctx-core/function": "workspace:^20.2.7"
 	},
 	"devDependencies": {
-		"@swc/cli": "^0.1.51",
-		"@swc/core": "^1.2.110",
-		"typescript": "^4.5.2"
+		"@swc/cli": "^0.1.52",
+		"@swc/core": "^1.2.113",
+		"typescript": "next"
 	},
 	"publishConfig": {
 		"access": "public",
