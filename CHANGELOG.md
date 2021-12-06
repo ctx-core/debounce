@@ -1,5 +1,11 @@
 # @ctx-core/debounce
 
+## 12.0.32
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+
 ## 12.0.31
 
 ### Patch Changes
