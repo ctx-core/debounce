@@ -1,5 +1,11 @@
 # @ctx-core/debounce
 
+## 12.0.33
+
+### Patch Changes
+
+- package.json: - module
+
 ## 12.0.32
 
 ### Patch Changes
