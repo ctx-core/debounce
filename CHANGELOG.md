@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.0.37
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/function@20.2.16
+
 ## 12.0.36
 
 ### Patch Changes
