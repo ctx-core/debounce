@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.0.34
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/function@20.2.13
+
 ## 12.0.33
 
 ### Patch Changes
