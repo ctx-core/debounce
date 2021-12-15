@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.0.35
+
+### Patch Changes
+
+- fix: package.json: exports
+- Updated dependencies
+  - @ctx-core/function@20.2.14
+
 ## 12.0.34
 
 ### Patch Changes

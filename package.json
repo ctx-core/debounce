@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/debounce",
-	"version": "12.0.34",
+	"version": "12.0.35",
 	"description": "ctx-core debounce",
 	"keywords": [
 		"ctx-core",
@@ -12,15 +12,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ctx-core/debounce/issues"
+		"url": "https://github.com/ctx-core/debounce.git"
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
 	"exports": {
 		".": {
-			"types": "./src/index.ts",
-			"import": "./dist/index.js"
+			"import": "./dist/index.js",
+			"types": "./src/index.ts"
 		},
 		"./package.json": "./package.json"
 	},
@@ -32,7 +32,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/function": "workspace:^20.2.13"
+		"@ctx-core/function": "workspace:^20.2.14"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
