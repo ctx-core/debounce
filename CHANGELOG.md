@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.0.36
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/function@20.2.15
+
 ## 12.0.35
 
 ### Patch Changes
