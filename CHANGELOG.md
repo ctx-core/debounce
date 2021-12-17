@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.0.39
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/function@20.2.18
+
 ## 12.0.38
 
 ### Patch Changes
