@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.0.40
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/function@20.2.19
+
 ## 12.0.39
 
 ### Patch Changes
