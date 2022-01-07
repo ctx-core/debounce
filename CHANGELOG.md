@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.0.44
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- Updated dependencies
+  - @ctx-core/function@20.2.24
+
 ## 12.0.43
 
 ### Patch Changes
