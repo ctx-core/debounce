@@ -1,5 +1,11 @@
 # @ctx-core/debounce
 
+## 12.0.51
+
+### Patch Changes
+
+- @ctx-core/array: 26.2.0
+
 ## 12.0.50
 
 ### Patch Changes
