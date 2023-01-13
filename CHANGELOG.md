@@ -1,5 +1,11 @@
 # @ctx-core/debounce
 
+## 12.0.61
+
+### Patch Changes
+
+- rimraf: ^4.0.1 -> ^4.0.4
+
 ## 12.0.60
 
 ### Patch Changes
