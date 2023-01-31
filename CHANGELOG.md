@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.0.62
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/function@21.6.1
+
 ## 12.0.61
 
 ### Patch Changes
