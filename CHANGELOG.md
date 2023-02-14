@@ -1,5 +1,11 @@
 # @ctx-core/debounce
 
+## 12.1.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 12.0.63
 
 ### Patch Changes
