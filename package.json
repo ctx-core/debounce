@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/debounce",
-	"version": "12.1.6",
+	"version": "12.1.7",
 	"description": "ctx-core debounce",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/function": "^21.10.1"
+		"@ctx-core/function": "^21.11.0"
 	},
 	"devDependencies": {
 		"c8": "^7.13.0",
