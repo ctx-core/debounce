@@ -1,1 +1,1 @@
-export type { debounce } from '@ctx-core/function'
+export { debounce } from '@ctx-core/function'

@@ -1,5 +1,11 @@
 # @ctx-core/debounce
 
+## 12.1.8
+
+### Patch Changes
+
+- debounce: fix: export { debounce } from '@ctx-core/function'
+
 ## 12.1.7
 
 ### Patch Changes
