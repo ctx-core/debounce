@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.1.37
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/function@21.17.19
+
 ## 12.1.36
 
 ### Patch Changes
