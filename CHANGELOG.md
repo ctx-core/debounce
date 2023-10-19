@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.1.42
+
+### Patch Changes
+
+- tsx: ^3.13.0 -> ^3.14.0
+- Updated dependencies
+  - @ctx-core/function@21.20.2
+
 ## 12.1.41
 
 ### Patch Changes
