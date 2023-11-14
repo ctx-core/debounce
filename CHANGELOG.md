@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.2.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+- Updated dependencies
+  - ctx-core@2.2.2
+
 ## 12.2.2
 
 ### Patch Changes
