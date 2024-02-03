@@ -1,5 +1,16 @@
 # @ctx-core/debounce
 
+## 12.2.126
+
+### Patch Changes
+
+- debounce: fix: ∋ clearTimeout
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@5.37.0
+
 ## 12.2.125
 
 ### Patch Changes
