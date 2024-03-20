@@ -1,5 +1,13 @@
 # @ctx-core/debounce
 
+## 12.2.156
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 12.2.155
 
 ### Patch Changes
