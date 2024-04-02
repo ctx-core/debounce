@@ -1,5 +1,11 @@
 # @ctx-core/debounce
 
+## 12.2.167
+
+### Patch Changes
+
+- ctx-core: ^7.0.1 -> ^7.0.2
+
 ## 12.2.166
 
 ### Patch Changes
